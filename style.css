@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  position: relative;
+}
+
+.content .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.content #button {
+  position: absolute;
+  bottom: 40%;
+  left: 43%;
+}
+
+.content #button #btn {
+  height: 40px;
+  width: 200px;
+  font-size: 15px;
+  border-radius: 5px;
+  outline-style: none;
+  cursor: pointer;
+}
+
+p {
+  display: inline;
+}
+/*# sourceMappingURL=style.css.map */

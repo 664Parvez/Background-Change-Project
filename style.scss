@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    position: relative;
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #button{
+        position: absolute;
+        bottom: 40%;
+        left: 43%;
+        #btn{
+            height: 40px;
+            width: 200px;
+            font-size: 15px;
+            border-radius: 5px;
+            outline-style: none;
+            cursor: pointer;
+        }
+    }
+}
+p{
+    display: inline;
+}
